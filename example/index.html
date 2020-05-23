@@ -3,7 +3,8 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>eminmuhammadi/RandomChance</title>
-    <meta name="viewport" content="user-scalable=NO, width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="viewport" 
+          content="user-scalable=NO, width=device-width, initial-scale=1, shrink-to-fit=no" />
     <style>
         #card {
             padding: 100px;
@@ -23,7 +24,10 @@
 
 <div id="card"></div>
 
-<script src="./dist/RandomChance.min.js"></script>
+<!-- Random Chance -->
+<script src="https://cdn.jsdelivr.net/gh/eminmuhammadi/RandomChance@v1.0.0/dist/RandomChance.min.js" 			type="text/javascript">
+</script>
+
 <script>
 
     var Chest = 
@@ -34,7 +38,7 @@
     var RC = new RandomChance(Chest.items,Chest.chances);
     var Result = RC.Spin();
 
-    document.getElementById('card').innerHTML = `<img src="./assets/${Result}.png" alt="${Result}"/>`;
+    document.getElementById('card').innerHTML = `<img src="https://cdn.jsdelivr.net/gh/eminmuhammadi/RandomChance@v1.0.0/assets/${Result}.png" alt="${Result}"/>`;
 
 </script>
 </body>
