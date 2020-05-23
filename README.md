@@ -1,5 +1,5 @@
 # RandomChance
-Randomizer with Percentages. For DEMO => [https://eminmuhammadi.github.io/RandomChance/example/](https://eminmuhammadi.github.io/RandomChance/example/)
+Randomizer with Percentages. For DEMO => [https://eminmuhammadi.github.io/RandomChance/example/index.html](https://eminmuhammadi.github.io/RandomChance/example/index.html)
 
 ## Installing
 ```html
